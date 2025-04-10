@@ -1,0 +1,29 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scrollbar-gutter: stable;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+}
+
+.main-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  border-inline: 1px solid gray;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: 0 2em;
+
+}

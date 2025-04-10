@@ -1,0 +1,22 @@
+.create-product {
+  & > * {
+    display: block;
+    width: 100%;
+    height: 2.6em;
+    margin-bottom: 0.8em;
+    padding: 0.5em;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  textarea {
+    resize: none;
+    font-family: inherit;
+    height: 5em;
+  }
+}
+

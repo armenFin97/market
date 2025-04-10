@@ -1,0 +1,20 @@
+menu {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  min-height: 3em;
+  align-items: center;
+
+  a {
+    color: #888;
+    text-decoration: none;
+    &:hover {
+      color: darkgoldenrod;
+    }
+  }
+}
+
+
+li {
+  list-style-type: none;
+}
