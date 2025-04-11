@@ -1,5 +1,5 @@
 const Monitor = ({width, height}: {width: number, height? : number}) => {
-    return <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width={width} height={height} preserveAspectRatio="none" viewBox="0 0 1440 560">
+    return <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" width={width} height={height} preserveAspectRatio="none" viewBox="0 0 1440 560">
     <g mask="url(&quot;#SvgjsMask1000&quot;)" fill="none">
         <rect width="1440" height="560" x="0" y="0" fill="#0e2a47"></rect>
         <path d="M848.2398416995323 388.13195527393464L977.6164998326453 437.93652009406884 960.7506520443509 317.92977739889716z" fill="rgba(28, 83, 142, 0.4)" className="triangle-float1"></path>
