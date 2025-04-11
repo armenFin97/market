@@ -1,20 +1,55 @@
 menu {
   display: flex;
   justify-content: center;
-  gap: 1.5em;
-  min-height: 3em;
+  gap: 2rem;
   align-items: center;
+  padding: 1rem 0;
 
   a {
-    color: #888;
+    color: #eee;
     text-decoration: none;
+    font-size: 1.1rem;
+    position: relative;
+    transition: color 0.3s ease;
+
     &:hover {
-      color: darkgoldenrod;
+      color: rgb(7, 42, 72);
+    }
+
+    &.active {
+      color: rgb(7, 42, 72);
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        width: 100%;
+        height: 2px;
+        background: rgb(7, 42, 72);
+        transform: scaleX(1);
+      }
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 100%;
+      height: 2px;
+      background: rgb(7, 42, 72);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+
+    &:hover::after {
+      transform: scaleX(1);
     }
   }
-}
 
-
-li {
-  list-style-type: none;
+  li {
+    list-style: none;
+  }
 }

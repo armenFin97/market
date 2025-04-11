@@ -1,13 +1,13 @@
 import "./nav.style.scss"
 
-import {Link} from "react-router";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
 	return <nav>
 		<menu>
-			<li><Link to="/">Home</Link></li>
-			<li><Link to="/products">Products</Link></li>
-			<li><Link to="/create-product">Create Product</Link></li>
+			<li><NavLink to="/" end>Home</NavLink></li>
+			<li><NavLink to="/products">Products</NavLink></li>
+			<li><NavLink to="/create-product">Create Product</NavLink></li>
 		</menu>
 	</nav>
 }
